@@ -18,7 +18,7 @@ from ec2hashcat import exceptions
 
 class Ec2(object):
     region_ami_map = {
-        'us-east-1': 'ami-dbceb0be',
+        'us-east-1': 'ami-4f84db25',
         'eu-west-1': 'ami-e5ad8492',
     }
 

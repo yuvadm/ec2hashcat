@@ -10,7 +10,7 @@ from ec2hashcat.commands.runscript import BaseEc2InstanceSessionCommand
 
 class Crack(BaseEc2InstanceSessionCommand):
     """ Launch an EC2 Instance and crack the specified file(s) """
-    hashcat_home = '/opt/cudaHashcat-1.37'
+    hashcat_home = '/opt/cudaHashcat-2.01'
 
     @classmethod
     def setup_parser(cls, parser, final=False):
